@@ -1,0 +1,25 @@
+/* show pass */
+span.show-password-input {
+    position: absolute;
+}
+span.show-password-input:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(https://brandwavebd.com//wp-content/uploads/2024/03/eye.png);
+    display: block;
+    background-size: 22px;
+    position: absolute;
+    left: 150px;
+    top: -30px;
+}
+span.show-password-input.popup:before {
+    left: 130px;
+    top: -50px;
+}
+
+
+form.checkout #nasa-billing-info .tooltip {
+    top: -16px;
+    left: 100%;
+}
