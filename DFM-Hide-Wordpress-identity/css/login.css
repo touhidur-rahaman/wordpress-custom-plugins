@@ -1,0 +1,52 @@
+/* .login #login {
+    padding: 0% 0 0 10%;
+    margin: 0px ;
+    margin-right: auto;
+} */
+body.login {
+    background-color: #fff;
+}
+#login {
+    width: 100%;
+    max-width: 420px;
+}
+.login h1 {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+#login h1 a {
+    height: auto;
+    width: 100%;
+    background-size: 160px;
+    line-height: inherit;
+    margin-bottom: 0px;
+    min-height: 86px;
+}
+
+
+.login form {
+    background: #f3f3f3;
+    margin-top: 1px;
+    border: none ;
+    box-shadow: none ;
+}
+#login form#loginform input {
+    box-shadow: none;
+    border-color: #ccc;
+}
+#login input#wp-submit {
+    border: 0;
+}
+.login #backtoblog a {
+    font-weight: 700;
+}
+.login #backtoblog, .login #nav {
+    background: #f3f3f3;
+}
+
+.login #backtoblog, .login #nav {
+    padding: 5px 10px;
+    background: #fff;
+    margin: 0;
+}
